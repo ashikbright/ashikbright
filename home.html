@@ -1,0 +1,542 @@
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<br /></div>
+
+
+<html lang="en">
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+<style>
+h2{
+ background-color: #000000;
+ padding: 30px 35px;
+ margin: -10px -50px;
+ text-align:center;
+ border-radius: 10px 10px 0 0;
+}
+ 
+hr{
+ margin: 10px -50px;
+ border: 0;
+ border-top: 1px solid #ccc;
+ margin-bottom: 40px;
+}
+ 
+div.container{
+ width: 900px;
+ height: 610px;
+ margin:35px auto;
+ font-family: 'Raleway', sans-serif;
+}
+ 
+div.main{
+ width: 300px;
+ padding: 10px 50px 25px;
+ border: 2px solid gray;
+ border-radius: 10px;
+ font-family: raleway;
+ float:left;
+ margin-top:50px;
+}
+ 
+input[type=text],input[type=password]{
+ width: 100%;
+ height: 40px;
+ padding: 5px;
+ margin-bottom: 25px;
+ margin-top: 5px;
+ border: 2px solid #ccc;
+ color: #4f4f4f;
+ font-size: 16px;
+ border-radius: 5px;
+}
+
+label{
+ color: #464646;
+ text-shadow: 0 1px 0 #fff;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+center{
+ font-size:32px;
+}
+
+.note{
+ color:red;
+}
+ 
+.valid{
+ color:green;
+}
+
+.back{
+ text-decoration: none;
+ border: 1px solid rgb(0, 143, 255);
+ background-color: rgb(0, 214, 255);
+ padding: 3px 20px;
+ border-radius: 2px;
+ color: black;
+}
+ 
+input[type=button]{
+ font-size: 16px;
+ background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+ border: 1px solid #e5a900;
+ color: #4E4D4B;
+ font-weight: bold;
+ cursor: pointer;
+ width: 100%;
+ border-radius: 5px;
+ padding: 10px 0;
+ outline:none;
+}
+ 
+input[type=button]:hover{
+ background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+.fugo{
+ float:right;
+}
+body{
+ background-color: rgb(90, 100, 85);
+ color: white;
+ font-size: 87.5%; 
+ /*Font Size is 14 */
+ font-family: Arial, "Comic Sans Ms";
+ line-height: 1.5;
+ text-align: left;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+#fix{
+  clear: both;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+iframe{
+  float: right;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+a:link, a:visited{
+color: #CF5C3F;
+}
+a:hover, a:active{
+background-color: #CF5C3F;
+color:#fff;
+}
+
+.body{
+margin: 0 auto;
+width: 70%;  
+clear: both;
+}
+.mainheader img{
+ width: 30%;
+ height: auto;
+ margin: 2% 0;
+}
+.mainheader nav{
+background-color: #666;
+height: 40px;
+line-height: 40px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.mainheader nav ul {
+list-style-type: none;
+margin: 0 auto;
+}
+.mainheader nav ul li {
+list-style-type: none;
+margin: 0 auto;
+float: left;
+display: inline-block;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+color: #fff;
+
+padding: 10px 25px;
+height: 20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainHeader nav .active a:visited
+{
+ background-color: #cf5c3F;
+ text-shadow: none;
+}
+.mainheader nav ul li a{
+ border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+.mainContent{
+ line-height: 25px;
+ border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+.Content{
+ width: 70%;
+ float: left;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+.topContent{
+ background-color: rgb(0,0,60);
+line-height: 25px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 2%;
+ 
+
+}
+.bottomContent{
+background-color: rgb(0,0,60);
+line-height: 25px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 2%;
+ 
+}
+.top-sidebar{
+width: 21%;
+float: left;
+background-color: #cab;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+padding: 2% 3%;
+
+margin: 2% 0 2% 3%;
+}
+.middle-sidebar{
+width: 21%;
+float: left;
+background-color: #cab;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-left: 3%;
+padding: 2% 3%;
+margin-bottom: 2%;
+
+
+}
+.buttom-sidebar{
+width: 21%;
+float: left;
+background-color: #cab;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin-left: 3%;
+padding: 2% 3%;
+margin-bottom: 2%;
+}
+.mainFooter{
+width: 100%;
+float: left;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background-color: #666;
+margin-top: 6%;
+margin-bottom: 2%;
+}
+.mainFooter p{
+ width: 92%
+ margin: 10px auto;
+ color: #fff;
+ padding: 2px;
+ height: 40px;
+ text-align: center;
+}
+#search{
+ float: right;
+}
+#search input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 40px 12px 40px;
+}
+.post-info{
+ font-style: italic;
+ color: #999;
+ font-size: 90%;
+}
+
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.iambrpslides {display:none}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css"></link>
+<script src="javascript/js.js="></script>
+</head>
+<body class="body">
+<header class="mainheader">
+<content id="search">
+ 
+ </content>
+ <nav>
+  <ul>
+   <li><a href="https://sppucrr.blogspot.com/p/home.html">Home</a></li>
+     <li><a href="https://sppucrr.blogspot.com/p/gallery.html">Gallery</a></li>
+   <li><a href="https://sppucrr.blogspot.com/p/contact.html">Contact</a></li>
+  </ul> 
+ </nav>
+</header></body>
+<br />
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="https://3.bp.blogspot.com/-PDzsTqnyeUc/XsqShqmlAaI/AAAAAAAACCs/yqxWCbJtx1o6_sB9k1iMG82OVoFLLjI7wCLcBGAsYHQ/s1600/f1.jpg" style="height: 400px; width: 400px;" />
+  <div class="text">  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="https://3.bp.blogspot.com/-1RMftVHmWgE/XsqSZVUE0kI/AAAAAAAACCo/PDaKhc60OuAC2fR7bt2-q7KdzscWQP9SACLcBGAsYHQ/s1600/f2.jpg" style="height: 400px; width: 400px;" />
+  <div class="text">  </div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br />
+
+<div style="text-align: center;">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+   
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<br />
+  
+ 
+    
+
+<div class="mainContent">
+ <div class="Content">
+  <article class="topContent">
+   <header>
+    <h3><a href="#" title="My First Post">St Philomena Pre University College</a> </h3>  
+   </header>
+   <footer>
+    <p class="post-info"></p>
+   </footer>
+   <content>
+<p>St Philomena Pre – University College was bifurcated from St. Philomena composite College and came into existence in 2001. It was founded by the visionary Very Rev. Msgr Antony Patrao in 1958. It is a minority institution, located in Puttur, a backward Malnad area of Coastal Karnataka State. During its long tenure of existence, it has grown and developed into a prestigious institution in the whole of Karnataka and neighbouring states. The primary focus of this institution is to provide an opportunity for higher learning to the Catholic youth of the area. However, from its very inception it has been imparting liberal education to boys and girls of all castes and creeds without idstinction. Thus, the College is an expression of the love of Christ towards all youth. Inspired by the same spirit of sacrificial love and service, Msgr A. Patrao established this College and became the pioneer in the field of higher education in this backward Malnad area of Puttur. Today, the College is well known for discipline, academic excellence, outstanding performance in curricular, co-curricular and in ports and games fields.
+
+</p>
+   </content>
+  </article>
+
+  <article class="bottomContent">
+   <header>
+   <h3><a href="#" title="Pathway Programme">About The Unit</a> </h3>  
+   </header>
+   <footer>
+    <p class="post-info"></p>
+   </footer>
+   <content>
+<p>Impeesa Rover Crew And Ranger Teem Was Started in the Year 2016 under the guidence of Rover Scout Leader Mr.Harshad Ismail and Mr.Sandesh Jhon Lobo.Rovering and rangering are the part of scouting for youngmen aged 16 to 25 years.The unit members are engaged in different activities of scouting and also attended Exams.In the year 2018,Mr.Harshad Ismail(RSL,Co-Ordinator Of Impeesa RoverCrew)Had been Took participated in the Asia Pacific Regional Scout Forum held at Philipines.In 2019,ranger Unit was started under the leadership of Ms.Poornima D.S.College Management is Supporting us in each of our Activities.  
+
+</p>
+   </content>
+  </article>
+
+  
+ </div>
+</div>
+<aside class="top-sidebar">
+ <article>
+  <h3>World Scouting</h3>
+  <p><a href="https://www.scout.org/">Click here to visit World Scouting</a></p>
+ </article>
+</aside>
+
+<aside class="middle-sidebar">
+ <article>
+  <h3>St Philomena Pre University College</h3>
+  <p><a href="http://sppucputtur.org/">Click Here For More Info....</a></p>
+ </article>
+</aside>
+
+<aside class="buttom-sidebar">
+ <article>
+  <h3>BSG India</h3>
+  <p><a href="http://www.bsgindia.org/User/Home.aspx">Read More....</a></p>
+ </article>
+</aside>
+
+
+
+<footer class="mainFooter">
+ <p>Copyright &amp;copy Ash Blogs </p>
+ 
+</footer>
+
+
+</html>
